@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.19;
 
-import {Test, console} from "forge-std/test.sol";
+import {Test, console} from "forge-std/Test.sol";
 import {FundMe} from "../../src/FundMe.sol";
 import {DeployFundMe} from "../../script/DeployFundMe.s.sol";
 import {FundFundMe, WithDrawFundMe} from "../../script/Interactions.s.sol";

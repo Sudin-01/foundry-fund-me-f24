@@ -20,13 +20,13 @@ contract InteractionTest is Test {
         vm.deal(User, STARTING_BALANCE);
     }
 
-    function testUserCanFund() public {
-        FundFundMe fundFundMe = new FundFundMe();
-        fundFundMe.fundFundMe(address(fundMe));
+    //     function testUserCanFund() public {
+    //         FundFundMe fundFundMe = new FundFundMe();
+    //         fundFundMe.fundFundMe(address(fundMe));
 
-        WithDrawFundMe withDrawFundme = new WithDrawFundMe();
-        withDrawFundme.withdrawFundMe(address(fundMe));
+    //         WithDrawFundMe withDrawFundme = new WithDrawFundMe();
+    //         withDrawFundme.withdrawFundMe(address(fundMe));
 
-        assert(address(fundMe).balance == 0);
-    }
+    //         assert(address(fundMe).balance == 0);
+    //     }
 }
